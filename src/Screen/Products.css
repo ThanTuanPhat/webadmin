@@ -1,0 +1,111 @@
+
+.headersP{
+    display: flex;
+    background: white;
+    justify-content: space-between;
+}
+
+.filter-icon{
+    width: 20px;
+    height: 15px;
+}
+.product-table{
+    width: 100%;
+    height: 100px;
+    border-collapse: collapse;
+    font-weight: 600;
+    border: 1px solid #C7C7C7;
+}
+.cube{
+    width: 10%;
+    height: 70px;
+    /* display: flex;
+    align-items: center */
+}
+.cubeN{
+    width: 10%;
+    color: #1C75BC;
+}
+.cube1{
+    width: 5%;
+}
+.cubeST{
+    width: 25%;
+}
+.table tr,
+.table td {
+  border: 1px solid #C7C7C7;
+  text-align: center;
+  padding: 8px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.update-button{
+    width: 38px;
+    height: 38px;
+    background: #4CAF50;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.insertimg{
+    widthL: 20px;
+    height: 20px;
+    /* padding-left: 2px;
+    padding-bottom: 2px; */
+}
+.delete-button{
+    width: 38px;
+    height: 38px;
+    background: #FF3434;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+
+}
+.deleteimg{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 2px;
+    
+}
+.tick{
+    width: 20px;
+    height: 20px;
+}
+.cube1-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgP{
+    width: 90px;
+    height: 70px;
+}
+.boder-tr th{
+    border: 1px solid #C7C7C7;
+    background: rgba(155, 174, 202, 0.1);
+}
+.insert-btn{
+    text-decoration: none;
+    width: 230px;
+    background: #27AAE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+}

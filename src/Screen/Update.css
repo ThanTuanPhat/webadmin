@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .n-c-q-x-container {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Khoảng cách giữa các phần tử */
+  }
+  .form-container {
+    width: 100%;
+    padding: 15px;
+    align-items: start;
+    padding-left: 210px;
+    display: flex;
+    flex-direction: column;
+  }
+  .titleF{
+     width: 80%;
+     text-align: center;
+  }
+  .form-label {
+    font-weight: 400;
+  }
+  .inside-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .form-select {
+    width: 207px;
+    height: 36px;
+    border: 1px solid #27aae1; /* Đổi màu viền */
+    border-radius: 5px; /* Bo góc cho viền */
+    outline: none; /* Loại bỏ viền mặc định khi chọn */
+    /* transition: border-color 0.3s ease; Hiệu ứng chuyển mượt khi thay đổi màu viền */
+  }
+  .form-control {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #27aae1; /* Đổi màu viền */
+    border-radius: 5px; /* Bo góc cho viền */
+    outline: none; /* Loại bỏ viền mặc định khi chọn */
+    /* transition: border-color 0.3s ease; Hiệu ứng chuyển mượt khi thay đổi màu viền */
+  }
+  .inside-container label {
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  .g-d-c-l-container {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Khoảng cách giữa các phần tử */
+  }
+  .n-c-a-container {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Khoảng cách giữa các phần tử */
+  }
+  .form-controlD {
+    width: 960px;
+    height: 150px;
+    border: 1px solid #27aae1; /* Đổi màu viền */
+    border-radius: 5px; /* Bo góc cho viền */
+    outline: none; /* Loại bỏ viền mặc định khi chọn */
+    /* transition: border-color 0.3s ease; Hiệu ứng chuyển mượt khi thay đổi màu viền */
+  }
+  .btn-container2{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    width: 75%;
+    justify-content: center;
+  }
+  .btn-primary{
+      background: #FF3434;
+      border: none;
+      width: 230px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      border-radius: 10px;
+      
+  }
+  .btn-primaryC{
+    background: #27AAE1;
+      border: none;
+      width: 230px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+  }
